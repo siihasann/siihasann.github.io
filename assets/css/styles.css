@@ -465,6 +465,14 @@ input {
 .discover__description {
   color: var(--white-color);
 }
+.discover__title span{
+  border: 1px solid #fff;
+  cursor: pointer;
+  padding: 2px 3px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+
 
 .discover__title {
   font-size: var(--h3-font-size);
