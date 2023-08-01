@@ -590,6 +590,7 @@ input {
 .place__card {
   position: relative;
   overflow: var(--img-hidden);
+
 }
 
 .place__card:hover .place__img {
@@ -614,6 +615,12 @@ input {
   flex-direction: column;
   justify-content: space-between;
   padding: .75rem .75rem 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+
+}
+.place__content:hover{
+  opacity: 1;
 }
 
 .place__rating {
